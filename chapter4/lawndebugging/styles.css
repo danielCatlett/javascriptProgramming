@@ -1,0 +1,12 @@
+.container{
+    max-width:1060px;
+    background: white;
+    line-height: 2em;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+h1{
+	text-align: center;
+	font-size: 2em;
+}

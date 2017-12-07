@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Intro to JQuery</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+</head>
+<style>
+    .startInvisible
+    {
+        display: none;
+    }
+</style>
+<script>
+    $(document).ready(function()
+    {
+        //console.log("testing");
+        $("#one").fadeIn(1000).slideUp(8000);
+        $("#two").slideDown(3000).fadeOut(11000);
+        $("#three").fadeIn(5000).slideUp(14000);
+        //console.log("testing2");
+    });
+</script>
+<body>
+    <h1>My name is Daniel, and I was very far behind in PRG-147</h1>
+    <br>
+    <h1 id="one" class="startInvisible">BUT</h1>
+    <br>
+    <h1 id="two" class="startInvisible">NO</h1>
+    <br>
+    <h1 id="three" class="startInvisible">MORE</h1>
+    <br>
+    <h2>After this assignment, I will be caught up in this class! At least until midnight...</h2>
+</body>
+</html>

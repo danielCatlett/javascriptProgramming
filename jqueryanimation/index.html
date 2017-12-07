@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery Animation</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<style>
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    #center 
+    {
+        height: 700px;
+        overflow: hidden;
+        float: left;
+    }
+    #slides 
+    {
+        left: 0;
+        position: relative;
+        width: 1000%;
+    }
+    @media only screen and (min-width: 100px) 
+    {
+        .col-1 
+        {
+            width: 8.33%;
+        }
+        .col-10
+        {
+            width: 83.33%;
+        }
+    }
+    .slot 
+    {
+        margin: 15px 0px;
+        width: 10%;
+        float: left;
+        display: inline-block;
+    }
+    .slot img 
+    {
+        padding: 20px 25%;
+        width: 100%;
+    }
+    .main 
+    {
+        width: 100%;
+    }
+    .row::after 
+    {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    #left 
+    {
+        text-align: left;
+    }
+
+    #right
+    {
+        text-align: right;
+    }
+    #left_button,
+    #right_button 
+    {
+        cursor: pointer;
+        padding-top: 300px;
+    }
+    [class*="col-"] 
+    {
+        float: left;
+        padding: 15px;
+    }
+</style>
+<body>
+    <main class="row">
+        <div id="leftButton" class="col-1">
+            <img src="leftarrow.png" alt="left arrow">
+        </div>
+        <div id="center" class="col-10">
+            <div id="slides">
+               <div class="slot"><img src="game.jpg" alt="In-Game Image"></div>
+               <div class="slot"><img src="comp.png" alt="comparison picture"></div>
+               <div class="slot"><img src="deathstar.jpg" alt="The Death Star"></div>
+               <div class="slot"><img src="2tall2draw.jpg" alt="2 Tall 2 Draw"></div>
+               <div class="slot"><img src="mario.jpg" alt="Mario Flag Pole"></div>
+               <div class="slot"><img src="pinoccio.jpg" alt="Pinoccio Nose"></div>
+               <div class="slot"><img src="atmosphere.png" alt="IN SPAAAAAAAACE"></div>
+               <div class="slot"><img src="go.png" alt="Pokemon Go"></div>
+               <div class="slot"><img src="dealwithit.jpg" alt="deal with it glasses"></div>
+               <div class="slot"><img src="shining.jpg" alt="Shining Door"></div>
+            </div>
+        </div>
+        <div id="rightButton" class="col-1">
+            <img src="rightarrow.png" alt="right arrow">
+        </div>
+    </main>
+</body>
+</html>

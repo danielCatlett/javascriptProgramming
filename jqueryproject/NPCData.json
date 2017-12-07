@@ -1,0 +1,110 @@
+{ "players" : [
+  {
+    "name":"Christian Harper",
+    "tag":"Venom",
+    "main":"Link",
+    "openingLine":"I'm the best at Smash! I beat all my friends! I play Link, because his upwards b attack is so strong!",
+    "victoryLine":"If you are seeing this, you really screwed up. It shouldn't have been possible to lose to me.",
+    "defeatLine":"WOW, WHY DON'T YOU STOP BEING A NEWB AND SPAMMING THE C-STICK! REAL PLAYERS DON'T USE THE C-STICK BECAUSE IT IS SCRUBBY! I HATE THIS STUPID GAME, AND I HATE YOU! I'M NEVER PLAYING SMASH AGAIN",
+    "physicalDescription":""
+  },
+  {
+    "name":"Larry Hall",
+    "tag":"Strawberry Shortcake",
+    "main":"Peach",
+    "openingLine":"My cutie, Peachy, will give me the power to win!",
+    "victoryLine":"Ohh, did I wiiiiin? I did it all for you, Peachy.",
+    "defeatLine":"I only lost because Peachy and I got into a fight before this set started, and I was too distraught too be able to focus",
+    "physicalDescription":"Tall, long, really greasy blonde hair, noticeably overweight, carries around a Peach body pillow"
+  },
+  {
+    "name":"Ray Schultz",
+    "tag":"Bobby Big Ballz",
+    "main":"Falco",
+    "openingLine":"You don't play a floaty, do you? I hate playing against floaties. Oh, you main Fox? Good, I can pillar Foxes forever",
+    "victoryLine":"Hah, get dumpstered, scrub",
+    "defeatLine":"I would have beat you if you didn't play so lame! I don't play to win, I play to have fun.",
+    "physicalDescription":""
+  },
+  {
+    "name":"Douglas Reeves",
+    "tag":"Fizz-Kid Boogie",
+    "main":"Ice-Climbers",
+    "openingLine":"Sup dude! Yeah, I named myself after Dizz-Kid Boogie because I love him. He is my favorite Melee player, and I strive to be just like him when I play. I sub to Dizz, and go to every tournament Dizz goes to. Wanna see a selfie I took with Dizz?",
+    "victoryLine":"Did you see those sick wobble setups I got? I learned them from watching Dizz-Kid. Dizz is so sick. You wanna learn how to wobble? I'll teach you how Dizz does it.",
+    "defeatLine":"Wow, you are pretty good, but not as good as Dizz-Kid. Dizz is love, Dizz is life.",
+    "physicalDescription":""
+  },
+  {
+    "name":"Layne Orien",
+    "tag":"Orion's Ultra Sword",
+    "main":"Kirby",
+    "openingLine":"Look, I know that everyone says that Kirby is the worst character in the game, but I think he has potential. Mark my words, I'm gonna get on the PR with Kirby some day. Just you wait and see!",
+    "victoryLine":"See what I mean! I make Kirby work! Do you think I have a chance of getting on the MIOM Top 100 with him some day?",
+    "defeatLine":"Look, I was just playing bad there. I know it looks like Kirby has no options, but I swear he is decent. He totally has a chaingrab on spacies!",
+    "physicalDescription":""
+  },
+  {
+    "name":"Scott Martinez",
+    "tag":"IG | Ganon Cannon",
+    "main":"Ganon",
+    "openingLine":"Look, dude. I know it's intimidating playing against someone with a sponsorship, but just relax, and have fun. I'll even let you pick the first stage. *from the background \"WOULD YOU SHUT UP ABOUT YOUR DUMB SPONSORSHIP ALREADY?\"",
+    "victoryLine":"Don't worry dude, you played well. There is only so much you can do against a sponsored player like me.",
+    "defeatLine":"*from the background \"What's the matter? Did your high profile sponsorship from Infinite Gaming not carry you to victory?\" SHUT UP! IT'S A REAL SPONSORSHIP!",
+    "physicalDescription":""
+  },
+  {
+    "name":"Josh Collins",
+    "tag":"Josh",
+    "main":"Fox",
+    "openingLine":"Hey dude, how's it going? You ready to play some Melee?",
+    "victoryLine":"GGs man. Your Fox is pretty sick. The one thing I saw that was really holding you back is your follow-ups after shine. I think working on those would be the best way for you to improve.",
+    "defeatLine":"GGs dude. That was a really fun set!",
+    "physicalDescription":"He's just an average guy. Short brown hair, regular jeans, and a cool t-shirt. You want to hate him for being too normal looking and actually being nice, but you can't justify it to yourself."
+  },
+  {
+    "name":"Benjamin Turner",
+    "tag":"xXxSephiroth420xXx",
+    "main":"Marth",
+    "openingLine":"Can we wait to start this match for like, two minutes? I'm watching Death Note on my phone, and the episode is almost over. No? Okay, fine, lets play now then.",
+    "victoryLine":"I owe my victory today to Kira. Watching him at least thirty times has taught me the value of treating everything like a chess match.",
+    "defeatLine":"Well, at least this is over, and I can go back to watching Death Note now.",
+    "physicalDescription":"Super Pale, hair dyed jet black, wearing a Death Note t-shirt"
+  },
+  {
+    "name":"John Scott",
+    "tag":"LemonLime",
+    "main":"Shiek",
+    "openingLine":"So, I'm actually feeling pretty sick right now, and I had to borrow a friend's controller. So if I lose, that's why. Normally, I could run through this place without dropping a single game.",
+    "victoryLine":"Wow, I played so bad that set. The glare from the tv really got in my eyes, and I couldn't see what was going on on the right side of the screen as well.",
+    "defeatLine":"I hope you know that you only won because the heat started getting to me almost immediately, and my hands started sweating up because of it. I missed a lot of omy tech chases because my hands kept slipping.",
+    "physicalDescription":""
+  },
+  {
+    "name":"Jose Porter",
+    "tag":"BTree",
+    "main":"Puff",
+    "openingLine":"Look, Jigglypuff gets a bad rap. She is actually one of the most interesting characters in the game, and is just as hard to play as any of the other top tiers.",
+    "victoryLine":"I know you probably feel like I didn't earn that win, but I labbed all week to learn those rest setups!",
+    "defeatLine":"Oh, sure! Pop off on the Jigglypuff main! How about you try not to get too excited about winning a matchup that is so heavily favored for you.",
+    "physicalDescription":""
+  },
+  {
+    "name":"Owen Hopkins",
+    "tag":"LRIG",
+    "main":"Captain Falcon",
+    "openingLine":"WASSUP DUDE! ARE YOU READY TO PLAY SOME MELEE? I KNOW I AM, BECAUSE I PLAY CAPTAIN FALCON, AND CAPTAIN FALCON IS THE GREATEST THING TO HAPPEN TO THIS BEAUTIFUL GAME!",
+    "victoryLine":"YO, DID YOU SEE THAT SICK COMBO I DID! THAT DOWNTHROW TO KNEE THAT I DID WAS SO SICK! CAPTAIN FALCON IS SICK!",
+    "defeatLine":"You know, I totally would have beat you if I hadn't been trying to kill you with off stage knees and Falcon Punches. I had at least six opportunities to kill you way earlier in that last game, and I didn't go for them.",
+    "physicalDescription":"Extremely scrawny, and wearing a tank top that is much too big for him."
+  },
+  {
+    "name":"????",
+    "tag":"FalcoMaster3000",
+    "main":"Falco",
+    "openingLine":"....",
+    "victoryLine":"....",
+    "defeatLine":"....",
+    "physicalDescription":"Tall and skinny. Dressed in all black, including a ski mask."
+  }
+]}

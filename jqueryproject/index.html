@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Turn Based Smash</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+</head>
+
+<body>
+    <h1 class="center">Turn Based Smash</h1>
+    <h2 class="left" id="actions">Actions Left: 3</h2>
+    <div class="container">
+        <img src="foxRight.png" alt="Fox Model" id="fox">
+        <img src="marthLeft.png" alt="Marth Model" id="marth">
+        <img id="background" src="finaldestinationLarge.jpg" alt="Final Destination stage image" class="center">
+        <img src="speechbubble.png" alt="Speech Bubble" id="speechbubble">
+        <p id="speech">Sup with it. My name is Bobby Scarnewman, but you can call me Scar. You may know me for my commentary work or my fifth place finish at Genesis. But that's not why I'm here today. (Press any key to continue.)</p>
+        <p id="playerTag"></p>
+        <p id="playerName"></p>
+        <p id="playerMain"></p>
+        <p id="playerLine"></p>
+    </div>
+    <br>
+    <div class="directional">
+        <button class="center" id="up" onclick="up()">^</button>
+        <br>
+        <button id="left" onclick="left()">&lt</button>
+        <button id="shine" onclick="shine()">Shine</button>
+        <button id="right" onclick="right()">&gt</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

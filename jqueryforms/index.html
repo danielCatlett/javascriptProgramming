@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Beautiful Form Returns!</title>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>The Beautiful Form Returns</h1>
+    <form name="theBestForm" id="theBestForm">
+        <label for="first">First Name:</label>
+        <input type="text" name="first" id="first" autofocus>
+        <br>
+        <label for="last">Last Name:</label>
+        <input type="text" name="last" id="last">
+        <br>
+        <label for="phone">Phone Number:</label>
+        <input type="text" name="phone" id="phone" placeholder="999-999-9999">
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="At least 8 characters">
+        <br>
+        <label for="passwordVerify">Verify Password:</label>
+        <input type="text" name="passwordVerify" id="passwordVerify">
+        <br>
+        <label>Why are you filling out this form?</label>
+        <br>
+        <input type="radio" name="reason" id="here" checked>Because it's here
+        <br>
+        <input type="radio" name="reason" id="obligation">Out of a sense of obligation
+        <br>
+        <input type="radio" name="reason" id="addiction">I have a crushing addiction, and the only relief I get is filling out online forms
+        <br>
+        <input type="radio" name="reason" id="meri">Because my name is Meri and I need to make sure this form works
+        <br>
+        <input type="radio" name="reason" id="daniel">Because my name is Daniel and I need to make sure this form works
+        <br>
+        <input type="radio" name="reason" id="other">Other
+        <br>
+        <label for="otherReason">If other is selected, please specify here:</label>
+        <input type="text" name="otherReason" id="otherReason">
+        <br>
+        <select name="dropdown" id="dropdown">
+        <option value="">What is the purpose of this form?</option>
+        <option>Fulfil an assignment</option>
+        <option>Probably some statement on modern society or something</option>
+        <option>I don't know</option>
+        <option>I don't think the maker of this form even knows</option>
+        <option>There isn't one</option>
+        <option>Simultaneously all of the above, and none of the above</option>
+        </select>
+        <br>
+        <h3>Is this last part of the form filler to hit an arbitrary number of 8 questions?</h3>
+        <input type="checkbox" name="checks" value="probably">Probably
+        <br>
+        <input type="checkbox" name="checks" value="definitely">Definitely
+        <br>
+        <input type="checkbox" name="checks" value="Yes">Yes
+        <br>
+        <input type="checkbox" name="checks" value="Yup">Yup
+        <br> 
+        <input type="checkbox" name="checks" value="shouldBeRadio">Wouldn't radio buttons make more sense here than checkboxes?
+        <br>
+        <br>
+        <input type="submit" id="submit" value="Submit" name="submit" onclick="submit()">
+    </form>
+</body>
+</html>
